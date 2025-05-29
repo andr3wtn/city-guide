@@ -13,17 +13,17 @@ section {
     border: 0.1rem solid rgb(111, 82, 46);
     border-radius: 1rem;
     padding: 1rem;
+    margin: 2rem;
+    background-color: rgb(240, 236, 219);
 }
 
-body > section {
-    padding: 1.5rem;
 
+section > section {
+    padding: 0.5rem;
 }
 
 header {
-    margin-top: -0.5rem;
     background-color:rgb(244, 236, 201);
-    box-shadow: hsl(from color h s l);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +93,7 @@ section, h2, h3 {
 }
 
 section h2 {
-    background-color:rgb(211, 183, 149);
+    background-color: #D3B795;
     display: flex;
     justify-content: center;
 }
@@ -120,8 +120,11 @@ section h2 {
 }
 
 input, textarea {
-    
+
     border: 1px solid #000000;
     border-radius: 0.5rem;
 }
 
+footer {
+    background-color: #a98d6a; 
+}
