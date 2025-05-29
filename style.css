@@ -21,7 +21,7 @@ body > section {
 }
 
 header {
-    margin-top: -8px;
+    margin-top: -0.5rem;
     background-color:rgb(244, 236, 201);
     box-shadow: hsl(from color h s l);
     display: flex;
@@ -120,6 +120,7 @@ section h2 {
 }
 
 input, textarea {
+    
     border: 1px solid #000000;
     border-radius: 0.5rem;
 }
