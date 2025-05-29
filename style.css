@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* { margin: 0; }
+
+*, *:before, *:after { box-sizing: border-box; }
+
+img { display: block; max-width: 100%; }
+
+section {
+    border: 0.1rem solid rgb(111, 82, 46);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+body > section {
+    padding: 1.5rem;
+
+}
+
+header {
+    margin-top: -8px;
+    background-color:rgb(244, 236, 201);
+    box-shadow: hsl(from color h s l);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+header h1 {
+    padding: 2rem;
+    font-weight: bold;
+    color: hsla(33, 41.4, 30.8, 1);
+    text-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex-grow: 2;
+}
+
+header nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.header-nav {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 4rem;
+}
+
+
+.attractions-nav {
+    display: flex;
+    list-style: square;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color:rgb(111, 82, 46);
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color:rgb(83, 53, 17);
+}
+
+body {
+    background-color:rgb(243, 243, 228);
+}
+
+h1, h2, h3, h4 {
+    color:rgb(111, 82, 46);
+}
+
+section, h2, h3 {
+  scroll-margin-top: 6rem;
+}
+
+section h2 {
+    background-color:rgb(211, 183, 149);
+    display: flex;
+    justify-content: center;
+}
+
+.intro-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+
+.intro-paragraph {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.intro-map {
+  flex: 1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+input, textarea {
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+}
+
